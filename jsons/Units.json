@@ -1,0 +1,169 @@
+[
+	{
+		"name": "Worker",
+		"unitType": "Civilian",
+		"movement": 2,
+		"uniques": ["Can build improvements on tiles"],
+		"cost": 70,
+		"requiredTech": "Organization"
+	},
+	{
+		"name": "Settler",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 106,
+		"uniques": ["Founds a new city"],
+		"hurryCostModifier": 20
+	},
+	{
+		"name": "Warrior",
+		"unitType": "Melee",
+		"movement": 1,
+		"strength": 10,
+		"cost": 20,
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Work Boats",
+		"unitType": "WaterCivilian",
+		"movement": 4,
+		"cost": 70,
+		"requiredTech": "Fishing",
+		"uniques": ["May create improvements on water resources"]
+	},
+	{
+		"name": "Rider",
+		"unitType": "Mounted",
+		"movement": 2,
+		"strength": 10,
+		"cost": 30,
+		"requiredTech": "Riding",
+		"requiredResource": "Horses",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","Penalty vs City 33%" ],
+		"attackSound": "horse"
+	},
+	{
+		"name": "Knight",
+		"unitType": "Mounted",
+		"movement": 3,
+		"strength": 15,
+		"cost": 80,
+		"requiredTech": "Chivalry",
+		"requiredResource": "Iron",
+		"uniques": ["No defensive terrain bonus","Penalty vs City 33%" ],
+		"attackSound": "horse"
+	},
+	{
+		"name": "Archer",
+		"unitType": "Ranged",
+		"movement": 1,
+		"strength": 10,
+		"rangedStrength": 5,
+		"cost": 30,
+		"requiredTech": "Archery",
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Catapult",
+		"unitType": "Siege",
+		"movement": 1,
+		"strength": 10,
+		"rangedStrength": 8,
+		"range": 3,
+		"cost": 80,
+		"requiredTech": "Mathematics",
+		"requiredResource": "Iron",
+		"uniques": ["Bonus vs City 200%", "No defensive terrain bonus",
+			"Must set up to ranged attack", "Limited Visibility"],
+		"attackSound": "throw"
+	},
+	{
+		"name": "Ship",
+		"unitType": "WaterMelee",
+		"movement": 3,
+		"strength": 20,
+		"cost": 50,
+		"requiredResource": "Iron",
+		"requiredTech": "Sailing",
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Battleship",
+		"unitType": "WaterRanged",
+		"movement": 5,
+		"strength": 30,
+		"rangedStrength": 10,
+		"range": 2,
+		"cost": 150,
+		"requiredTech": "Navigation",
+		"requiredResource": "Coal",
+		"uniques": ["Ranged attacks may be performed over obstacles"]
+	},
+	{
+		"name": "Mind Bender",
+		"unitType": "Scout",
+		"movement": 1,
+		"strength": 10,
+		"cost": 50,
+		"requiredTech": "Philosophy",
+		"uniques": ["Ignores terrain cost","+2 Visibility Range"],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Swordsman",
+		"unitType": "Melee",
+		"movement": 1,
+		"strength": 15,
+		"cost": 50,
+		"requiredTech": "Smithery",
+		"requiredResource": "Iron",
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Shield",
+		"unitType": "Melee",
+		"movement": 1,
+		"strength": 15,
+		"cost": 30,
+		"uniques": ["Penalty vs land units 50%"],
+		"requiredTech": "Shields"
+	},
+	{
+		"name": "Bomber",
+		"unitType": "Bomber",
+		"movement": 1,
+		"strength": 20,
+		"rangedStrength": 14,
+		"range": 20,
+		"cost": 100,
+		"requiredTech": "Machinery",
+		"requiredResource": "Oil",
+		"attackSound": "shot"
+	},
+	{
+		"name": "Fighter",
+		"unitType": "Fighter",
+		"movement": 1,
+		"strength": 15,
+		"rangedStrength": 8,
+		"range": 10,
+		"interceptRange": 10,
+		"cost": 80,
+		"requiredTech": "Machinery",
+		"requiredResource": "Oil",
+		"uniques": ["[100]% chance to intercept air attacks","Bonus vs Bomber 150%",
+			"6 tiles in every direction always visible"],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Carrier",
+		"unitType": "WaterAircraftCarrier",
+		"movement": 5,
+		"strength": 10,
+		"rangedStrength": 40,
+		"cost": 90,
+		"requiredResource": "Coal",
+		"requiredTech": "Astronomy",
+		"uniques": ["Can carry 2 aircraft"]
+	}
+]
