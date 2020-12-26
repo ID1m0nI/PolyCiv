@@ -1,0 +1,183 @@
+[
+	//Spectator
+  {
+		"name": "Spectator",
+		"outerColor": [255,255,255]
+     //		"innerColor": [255,255,255]
+	},
+  {
+    "name": "Xin-Xi",
+    "leaderName": "Leader Xin-Xi",
+    "adjective": ["Xin-Xi"],
+    "startBias": ["Hill"],
+    "preferredVictoryType": "Cultural",
+    "outerColor": [139, 0, 0],
+    "innerColor": [255,255,255],
+    "uniques": ["They start their journey in the dense mountains, surrounded by beautiful cherry blossom."],
+    "cities":["Bubu","Bucha","Bugu","Chabu","Chacha","Chagu","Gucha","Gubu","Libu","Licha","Ligu","loli","lipo","Shacha","Shagu","Shali","Xibu","Xicha","Yobu","Yocha"]
+  },
+  {
+    "name": "Imperius",
+    "leaderName": "Leader Imperius",
+    "adjective": "Imperius",
+    "startBias": ["Plains"],
+    "preferredVictoryType": "Domination",
+    "outerColor": [0,0,255],
+    "innerColor": [255,255,255],
+    "uniques": ["Huge mountains and green valleys. The Imperius climate is perfect for growing fruit."],
+    "cities":["Cado","Caica","Caip","Caip","Doca","Doica","Doip","Icaca","Icado","Icaip","Lomus","Lonu","Lopi","Maca","Mado","Mamus","Nudo","Nuica","Nusum"]
+  },
+  {
+    "name": "Oumaji",
+    "leaderName": "Leader Omaji",
+    "adjective": "Oumaji",
+    "startBias": ["Desert"],
+    "preferredVictoryType": "Scientific",
+    "outerColor": [255,127,0],
+    "innerColor": [255,255,255],
+    "uniques": ["The seemingly endless, sun-blessed desert is the home of the Oumaji tribe."],
+    "cities":["Badorgh","Brark","Urulanta","dorbamu","dorbaon","dorghye","dorhaon","doronji","doronlim","ghdorke","ghhalim","ghkemu","ghmuba","ghsila","habador","hadorba","haghon","hakedor","halagh","haonji",]
+  },
+  {
+    "name": "Bardur",
+    "leaderName": "Leader Bardur",
+    "adjective": "Bardur",
+    "startBias": ["Tundra"],
+    "preferredVictoryType": "Scientific",
+    "outerColor": [25,25,25],
+    "innerColor": [255,255,255],
+    "uniques": ["Surviving the harsh eternal winter of the Bardur woods is not an easy task, but Bardur seems to thrive here."],
+    "cities":["arkbufla","arkbugru","buflaork","bugruark","bugugru","flagrulak","grugurø","gulak","gruguork","grulakur","gruorklak","gruorktof","grurøtof","gruurark","guarklak","gubufla","gubutof","lakflagru","lakgruur","lakgugru"],
+  },
+  {
+    "name": "Kickoo",
+    "leaderName": "Leader Kickoo",
+    "adjective": "Kickoo",
+    "startBias": ["Coast"],
+    "preferredVictoryType": "Cultural",
+    "outerColor": [50,205,50],
+    "innerColor": [255,255,255],
+    "uniques": ["White sandy beaches with coconut palms. Abundance of fruit and fish. Welcome to the home of the Kickoo."],
+    "cities":["sivaan","sivanu","sivalo","sivama","sikolu","sikoli","silono","silooki","siloli","siokino","simava","vasino","vaannu","vanuan","vanulo","valulo","vakonu","vanolo","valoli","valian"]
+  },
+  {
+    "name": "Hoodrick",
+    "leaderName": "Leader Hoodrick",
+    "adjective": ["Hoodrick"],
+    "startBias": ["Plains"],
+    "preferredVictoryType": "Scientific",
+    "outerColor": [0,153,0],
+    "innerColor": [255,255,255],
+    "uniques": ["The yellow autumn leaves of the Hoodrick woods are perfect hideouts for its peculiar mushroom stuffing inhabitants."],
+    "cities":["thleylo","thleyol","thleyber","thleydon","thleyick","leythlo","leythol","leythber","leylodon","leylogo","loolick","olloth","ollober","olleydo","ollowa","olberick","olberin","olbergo","bericklo","berwego","bergoth","berdoth","donleygo"]
+  },
+  {
+    "name": "Luxidoor",
+    "leaderName": "Leader Luxidoor",
+    "adjective": ["Luxidoor"],
+    "startBias": ["Grassland"],
+    "preferredVictoryType": "Cultural",
+    "outerColor": [170,0,255],
+    "innerColor": [255,255,255],
+    "uniques": ["The Luxidoor love expensive things, jewels, rare spices and exclusive ornaments. That is also why they are the most expensive tribe in Polytopia!
+The Luxidoor citizens lead very comfortable lives, draped in the finest purple silk. But will they survive outside the walls of their beloved capital?"],
+    "cities":["isslôgaexipô","isslôgaexini","isslôgaexiau","isslôgaexiki","isslôgaexiem","isslôgaexily","isslôgaexiux","isslôgaexiuss","isslôgaexiou","isslôgapôexi","isslôgapôni","isslôgapôau","isslôgapôki","isslôgapôem","isslôgapôly","isslôgapôux","isslôgapôuss","isslôgapôou","isslôganiexi","isslôganipô"]
+  },
+  {
+    "name": "Vengir",
+    "leaderName": "Leader Vengir",
+    "adjective": ["Vengir"],
+    "startBias": ["Avoid [Tundra]"],
+    "preferredVictoryType": "Domination",
+    "outerColor": [89,89,89],
+    "innerColor": [255,255,255],
+    "uniques": ["Frowned upon by the other tribes and pushed into the unpleasant wastelands. Will they tolerate this injustice or rise to fight back?"],
+    "cities":["gortu","gordis","gorbu","gornt","gorar","gorpe","gorrz","gorcth","gorna","gorxas","gorth","gorhe","gorst","gorim","gorck","tugor","tudis","tubu","tunt","tuar",]
+  },
+  {
+    "name": "Zebazi",
+    "leaderName": "Leader Zebazi",
+    "adjective": ["Zebazi"],
+    "startBias": ["Avoid [Desert]"],
+    "preferredVictoryType": "Cultural",
+    "outerColor": [204,102,0],
+    "innerColor": [255.,255,255],
+    "uniques": ["Zebasi thrive on the warm savannah, cultivating the rich soil to provide food for their mighty population."],
+    "cities":["lazanmo","lazanza","lazanzim","lazanya","lazanbo","lazanwa","lazanco","lazanzu","lamozan","lamoza","lamozim","lamoya","lamobo","lamowa","lamoco","lamozu","lazazan","lazamo","lazazim","lazaya"]
+  },
+  {
+    "name": "Ai-Mo",
+    "leaderName": "Leader Ai-Mo",
+    "adjective": ["Ai-Mo"],
+    "startBias": ["Hill"],
+    "preferredVictoryType": "Cultural",
+    "outerColor": [84,197,216],
+    "innerColor": [255,255,255],
+    "uniques": ["The tranquil and wise Ai-Mo tribe inhabits the harshest, windiest, and highest mountain range of the square, where they have found inner peace by meditating in the eternal evening light."],
+    "cities":["sotop olee","sotopodee","sotop otï","sotopopï","sotopofï","sotoposï","sotop onï","sotopolï","sotopokï","sotoleepo","sotole edee","sotoleetï","so toleepï","sotoleefï","soto eesï","so tol eenï","sotoleelï","sotoleekï","sotodeepo","soto deelee"]
+  },
+  {
+    "name": "Quetzali",
+    "leaderName": "Leader Quetzali",
+    "adjective": ["Quetzali"],
+    "startBias": ["Plains"],
+    "preferredVictoryType": "Scientific",
+    "outerColor": [29,71,62],
+    "innerColor": [255,255,255],
+    "uniques": ["The Quetzali tribe worship the bird gods of the red soil and live in harmony with the natural symmetry of their cubistic jungles. They are commonly seen riding giant flightless birds."],
+    "cities": ["jaixex","jaixwas","jaixtz","jaixel","jaixqu","jaixill","jaixchu","jaixca","jaixya","jaixwop","jaixcho","jaixtal","jaixtek","jaix","jaexix","jaexwas","jaextz","jaexel","jaexqu","jaexill"]
+  },
+  {
+    "name": "Yadakk",
+    "leaderName": "Leader Yadakk",
+    "adjective": ["Yădakk"],
+    "startBias": ["Avoid [Tundra]"],
+    "preferredVictoryType": "Cultural",
+    "outerColor": [89,28,30],
+    "innerColor": [255,255,255],
+    "uniques": ["The Yădakk started out as a nomadic tribe in the beautiful harsh Khalee plains. Now they are the trades of the square, connecting their empire with impressive trade routes."],
+    "cities": ["ültsaberki","ültsaberst","ültsaberăn","ültsaberol","ültsabermer","ültsaberkh","ültsaberki","ültsaberar","ültsaberüm","ültsabertja","ültsaberge","ültsaberurk","ültsaberark","ültsaberaz","ültsabergy","ültsaberug","ültsabersh","ültsaberkă","ültsaberkol","ültsabersam","ültsaberez"]
+  },
+  {
+    "name": "Aquarion",
+    "leaderName": "Leader Aquarion",
+    "adjective": ["Aquarion"],
+    "startBias": ["Coast"],
+    "preferredVictoryType": "Domination",
+    "outerColor": [243,133,129],
+    "innerColor": [255,255,255],
+    "uniques": ["From the deep oceans a long lost civilization appears! Their extreme isolation has given them special aquatic abilities that are unknown to the other more human tribes.
+Aquarion have a slightly different tech tree and have access to the unique amphibious turtle units that no other tribe can train."],
+    "cities": ["quodo","quotis","quonép","quoico","quoéid","quopo","quofic","quotun","quopol
+","quolan","quoaq","quoat","quotic","quonau","quoséi","doquo","dotis","donép","doico","doéid",]
+  },
+  {
+  "name": "Elyrion",
+  "leaderName": "Leader ∑∫ỹriȱŋ",
+  "adjective": ["∑∫ỹriȱŋ"],
+  "startBias": ["Grassland"],
+  "preferredVictoryType": "Cultural",
+  "outerColor": [243,89,255],
+  "innerColor": [255,255,255],
+  "uniques": ["The mysterious ∑∫ỹriȱŋ defend their woodland homes with colorful magic and the ferocity of fire-breathing dragons! They regard Nature as a holy spirit and cannot hunt animals or chop down trees, instead they start the game with the unique Enchantment tech that can turn regular animals into powerful monsters."],
+  "cities": ["πo⫛△‡","πo⫛△Ŧo","πo⫛△‡o","πo⫛△△Ħ△","πo⫛△Ωm","πo⫛△ϸa","πo⫛△ⵠⵠ","πo⫛△πo","πo⫛△i₺","πo⫛△⫛‡","πo⫛△ţe","πo⫛△∑","πo⫛△~","πo⫛△ഽi","πo⫛△ȱȓ","πo⫛△⫛ȱ","πo⫛△","πo‡⫛△","πo‡Ŧo","πo‡‡o",]
+  },
+  {
+    "name": "Polaris",
+    "leaderName": "Leader Polaris",
+    "adjective": ["Polaris"],
+    "startBias": ["Tundra"],
+    "preferredVictoryType": "Domination",
+    "outerColor": [182,161,133],
+    "innerColor": [255,255,255],
+    "uniques": ["The Polaris have lain trapped in the far reaches of the freezing tundra for eons, but were blessed by the unknowable Gaami with the power to expand their unnatural icy terrain farther than the weather permits.
+With the might of sleds and Mamoos, the mystical Polaris are determined to entomb the Square in ice and transform the land into a frigid paradise."],
+    "cities": ["tatonuuil","tatonuupi","tatonuudo","tatonuuiq","tatonuuaa","tatonuuan","tatonuupol","tatoilnuu","tatoilpi","tatoildo","tatoiliq","tatoilaa","tatoilan","tatoilpol","tatopinuu","tatopiil","tatopido","tatopiiq","tatopiaa","tatopian",]
+  },
+  //Barbarian
+	{
+		"name": "Barbarians",
+		"outerColor": [0,0,0],
+		"innerColor": [182,0,0]
+	}
+]

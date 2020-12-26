@@ -1,0 +1,264 @@
+[
+  {
+    "columnNumber": 0,
+    "era": "Polytopian era",
+    "techCost": 35,
+    "buildingCost": 60,
+    "wonderCost": 275,
+    "techs": [
+      {
+        "name": "Hunting",
+        "row": 2
+      },
+      {
+        "name": "Fishing",
+        "row": 5
+      },
+      {
+        "name": "Climbing",
+        "row": 8
+      }
+    ]
+  },
+  {
+    "columnNumber": 1,
+    "era": "Polytopian era",
+    "techCost": 55,
+    "buildingCost": 75,
+    "wonderCost": 275,
+    "techs": [
+      {
+        "name": "Forestry",
+        "row": 1,
+        "prerequisites": ["Hunting"]
+      },
+      {
+        "name": "Archery",
+        "row": 3,
+        "prerequisites": ["Hunting"]
+      },
+      {
+        "name": "Sailing",
+        "row": 4,
+        "prerequisites": ["Fishing"],
+        "uniques": ["Enables embarkation for land units"]
+      },
+      {
+        "name": "Whaling",
+        "row": 6,
+        "prerequisites": ["Fishing"]
+      },
+      {
+        "name": "Mining",
+        "row": 7,
+        "prerequisites": ["Climbing"]
+      },
+      {
+        "name": "Meditation",
+        "row": 9,
+        "prerequisites": ["Climbing"]
+      }
+    ]
+  },
+  {
+    "columnNumber": 2,
+    "era": "Polytopian era",
+    "techCost": 105,
+    "buildingCost": 100,
+    "wonderCost": 275,
+    "techs": [
+      {
+        "name": "Mathematics",
+        "row": 1,
+        "prerequisites": ["Forestry","Archery"]
+      },
+      {
+        "name": "Metal Casting",
+        "row": 2,
+        "prerequisites": ["Forestry","Archery"]
+      },
+      {
+        "name": "Spiritualism",
+        "row": 3,
+        "prerequisites": ["Archery"]
+      },
+      {
+        "name": "Navigation",
+        "row": 4,
+        "prerequisites": ["Sailing"],
+        "uniques": ["Enables embarked units to enter ocean tiles"]
+      },
+      {
+        "name": "Compass",
+        "row": 5,
+        "prerequisites": ["Whaling","Sailing"],
+        "uniques": ["Increases embarked movement +1"]
+      },
+      {
+        "name": "Aquatism",
+        "row": 6,
+        "prerequisites": ["Whaling"]
+      },
+      {
+        "name": "Smithery",
+        "row": 7,
+        "prerequisites": ["Mining"]
+      },
+      {
+        "name": "Coal Mining",
+        "row": 8,
+        "prerequisites": ["Mining"]
+      },
+      {
+        "name": "Philosophy",
+        "row": 9,
+        "prerequisites": ["Meditation"]
+      }
+    ]
+  },
+  {
+    "columnNumber": 3,
+    "era": "Polytopian era",
+    "techCost": 175,
+    "buildingCost": 120,
+    "wonderCost": 275,
+    "techs": [
+      {
+        "name": "Physics",
+        "row": 1,
+        "prerequisites": ["Mathematics","Metal Casting"]
+      },
+      {
+        "name": "Machinery",
+        "row": 3,
+        "uniques": ["Improves movement speed on roads"],
+        "prerequisites": ["Metal Casting","Archery"]
+      },
+      {
+        "name": "Astronomy",
+        "row": 5,
+        "prerequisites": ["Navigation","Compass"]
+      },
+      {
+        "name": "Industrialization",
+        "row": 8,
+        "prerequisites": ["Smithery","Coal Mining"]
+      }
+    ]
+  },
+  {
+    "columnNumber": 4,
+    "era": "Polytopian era",
+    "techCost": 35,
+    "buildingCost": 60,
+    "wonderCost": 275,
+    "techs": [
+      {
+        "name": "Organization",
+        "row": 2
+      },
+      {
+        "name": "Riding",
+        "row": 5
+      }
+    ]
+  },
+  {
+    "columnNumber": 5,
+    "era": "Polytopian era",
+    "techCost": 55,
+    "buildingCost": 75,
+    "wonderCost": 275,
+    "techs": [
+      {
+        "name": "Farming",
+        "row": 1,
+        "prerequisites": ["Organization"]
+      },
+      {
+        "name": "Shields",
+        "row": 3,
+        "prerequisites": ["Organization"]
+      },
+      {
+        "name": "Roads",
+        "row": 4,
+        "prerequisites": ["Riding"]
+      },
+      {
+        "name": "Free Spirit",
+        "row": 6,
+        "prerequisites": ["Riding"]
+      }
+    ]
+  },
+  {
+    "columnNumber": 6,
+    "era": "Polytopian era",
+    "techCost": 105,
+    "buildingCost": 100,
+    "wonderCost": 275,
+    "techs": [
+      {
+        "name": "Construction",
+        "row": 1,
+        "prerequisites": ["Farming"]
+      },
+      {
+        "name": "Architecture",
+        "row": 2,
+        "prerequisites": ["Shields"]
+      },
+      {
+        "name": "Trade",
+        "row": 4,
+        "prerequisites": ["Roads"]
+      },
+      {
+        "name": "Guilds",
+        "row": 5,
+        "prerequisites": ["Roads","Free Spirit"]
+      },
+      {
+        "name": "Chivalry",
+        "row": 6,
+        "prerequisites": ["Free Spirit"]
+      }
+    ]
+  },
+  {
+    "columnNumber": 7,
+    "era": "Polytopian era",
+    "techCost": 175,
+    "buildingCost": 120,
+    "wonderCost": 275,
+    "techs": [
+      {
+        "name": "Archaeology",
+        "row": 2,
+        "prerequisites": ["Construction","Architecture"]
+      },
+      {
+        "name": "Economics",
+        "row": 5,
+        "prerequisites": ["Trade","Guilds"]
+      }
+    ]
+  },
+  {
+    "columnNumber": 8,
+    "era": "Polytopian era",
+    "techCost": 235,
+    "buildingCost": 120,
+    "wonderCost": 275,
+    "techs": [
+      {
+				"name": "Future Tech",
+				"row": 9,
+				"prerequisites": ["Physics","Machinery","Astronomy","Aquatism","Industrialization","Philosophy","Archaeology","Economics","Chivalry","Spiritualism"],
+				"uniques": ["Who knows what the future holds?", "Can be continually researched"],
+				"quote": "'I think we agree, the past is over.' - George W. Bush"
+			}
+    ]
+  }
+]
